@@ -117,6 +117,7 @@ ul:hover {
   margin: auto;
   color: white;
   position: relative; /*h1の中央寄せ配置の起点とするためのrelative*/
+  width: auto;
   height: auto; /*高さを全画面にあわせる*/
 }
 
