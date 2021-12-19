@@ -163,7 +163,6 @@ ul:hover {
 footer {
   background-color: #fff;
   color: black;
-  animation: key 0.3s ease infinite alternate;
 }
 
 a:hover {
