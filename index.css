@@ -190,3 +190,8 @@ a:hover {
   border: 2px solid black;
   width: 400px;
 }
+
+.gallery img:hover {
+  transform: scale(1.2, 1.2);
+  transition-duration: 0.5s;
+}
