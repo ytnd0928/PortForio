@@ -122,7 +122,11 @@ ul:hover {
 }
 
 .git {
-  width: 50px;
+  width: 80px;
+  margin-right: 20px;
+}
+.qiita {
+  width: 75px;
 }
 .tureru {
   width: 200px;
@@ -193,5 +197,14 @@ a:hover {
 
 .gallery img:hover {
   transform: scale(1.2, 1.2);
+  transition-duration: 0.5s;
+}
+
+.other img:hover {
+  transform: scale(1.5, 1.5);
+  transition-duration: 0.5s;
+}
+.styly img:hover {
+  transform: scale(1.5, 1.5);
   transition-duration: 0.5s;
 }
