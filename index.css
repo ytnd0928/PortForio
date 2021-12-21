@@ -28,6 +28,12 @@ ul {
   margin-top: 200px;
 }
 
+.scroll {
+  color: white;
+  font-family: "Rajdhani", sans-serif;
+  animation: key 0.8s ease infinite alternate;
+}
+
 ul:hover {
   color: darkgreen;
 }
@@ -90,7 +96,6 @@ ul:hover {
   color: #fff;
   font-family: "Rajdhani", sans-serif;
   font-weight: bold;
-  animation: key 0.3s ease infinite alternate;
 }
 
 @keyframes key {
@@ -98,7 +103,7 @@ ul:hover {
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
 }
 
